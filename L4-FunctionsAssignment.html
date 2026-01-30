@@ -12,13 +12,7 @@
   <script>
 	console.log(document.getElementById("nameInput"));
 	console.log(document.getElementById("ageInput"));
-	//function printInput() {
-		//let name = nameInput.value
-		//let age = ageInput.value
-		//output.innerHTML += name  + " " + age
-	//}
-	//document.getElementById("myButton").addEventListener('click', printInput)
-
+	
     // Create function, happyBirthday, that outputs "Happy Birthday to you!" using the innerHTML property
 	// Look at the code from last week's assignment if you're unsure of how to use innerHTML
 		function happyBirthday() {
@@ -46,10 +40,10 @@
 			let age = ageInput.value
 			let name = nameInput.value
 			output.innerHTML = "You are " + age + " years old today!"
-			happyBirthday();
-			//happyBirthday()
-			//birthdayName()
-			//happyBirthday()
+			happyBirthday()
+			happyBirthday()
+			birthdayName()
+			happyBirthday()
 		}
 
 		document.getElementById("myButton").addEventListener('click', personalizedSong)
